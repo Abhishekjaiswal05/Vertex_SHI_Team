@@ -13,8 +13,8 @@ const PORT = process.env.PORT || 5000;
 app.use(cookieParser());
 
 const allowedOrigins = [
-  "https://hack-odhisha-team-fb.vercel.app", 
-  "http://localhost:8080" 
+  "https://vertex-shi-team-6zv9.vercel.app/", 
+  "http://localhost:5000" 
 ];
 
 app.use(cors({
